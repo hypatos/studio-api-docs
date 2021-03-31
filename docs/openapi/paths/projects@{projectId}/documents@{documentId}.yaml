@@ -1,0 +1,27 @@
+get:
+  summary: Retrieve a document by id.
+  operationId: getDocumentById
+  description: Retrieve a specific document including the
+    extracted and completed data (entities).
+  tags:
+    - Documents
+  security:
+    - BasicAuth: [ ]
+  parameters:
+    - $ref: '../../components/parameters/projectId.yaml'
+    - $ref: '../../components/parameters/documentId.yaml'
+  responses:
+    '200':
+      description: The requested document
+      content:
+        application/json:
+          schema:
+            type: array
+            items:
+              $ref: '../../components/schemas/Document.yaml'
+    '404':
+      $ref: '../../components/responses/NotFound.yaml'
+  x-codeSamples:
+    - lang: curl
+      source:
+        $ref: '../../code-samples/projects@{projectId}/documents@{documentId}.txt'

@@ -1,0 +1,20 @@
+type: object
+required:
+  - id
+  - title
+  - state
+  - updatedAt
+properties:
+  id:
+    type: string
+    example: 6040dc9680b782b365ea77d5
+  title:
+    type: string
+    example: scan-doc-1.jpg
+  state:
+    type: string
+    example: done
+  updatedAt:
+    type: string
+    format: date-time
+    example: 2021-03-04 13:12:30.612000

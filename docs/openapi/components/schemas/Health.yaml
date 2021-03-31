@@ -1,0 +1,16 @@
+type: object
+required:
+  - environment
+  - version
+  - timestamp
+properties:
+  environment:
+    type: string
+    example: dev
+  version:
+    type: string
+    example: 8.0.2
+  timestamp:
+    type: number
+    format: double
+    example: 1613459981.815646

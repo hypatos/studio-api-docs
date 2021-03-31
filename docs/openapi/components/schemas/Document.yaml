@@ -1,0 +1,270 @@
+type: object
+required:
+  - id
+  - title
+  - state
+  - entities
+properties:
+  id:
+    type: string
+    example: 6040dc9680b782b365ea77d5
+  title:
+    type: string
+    example: scan-doc-1.jpg
+  state:
+    type: string
+    example: extracted
+  updatedAt:
+    type: string
+    format: date-time
+    example: 2021-03-11 13:34:33.885000
+  entities:
+    type: array
+    items:
+      type: object
+      properties:
+        recipient:
+          type: object
+          properties:
+            address:
+              type: object
+              properties:
+                value:
+                  type: string
+                  example: Unter den Linden 1
+                probability:
+                  type: double
+                  example: 0.9562899470329285
+            postcode:
+              type: object
+              properties:
+                value:
+                  type: string
+                  example: '10000'
+                probability:
+                  type: double
+                  example: 0.9567813873291016
+            city:
+              type: object
+              properties:
+                value:
+                  type: string
+                  example: Berlin
+                probability:
+                  type: double
+                  example: 0.9663658142089844
+            country:
+              type: object
+              properties:
+                value:
+                  type: string
+                  example: Germany
+                probability:
+                  type: double
+                  example: 0.977552592754364
+            companyName:
+              type: object
+              properties:
+                value:
+                  type: string
+                  example: Acme Corp.
+                probability:
+                  type: double
+                  example: 0.9740933775901794
+        number:
+          type: object
+          properties:
+            value:
+              type: string
+              example: '12345'
+            probability:
+              type: double
+              example: 0.9691528081893921
+        currency:
+          type: object
+          properties:
+            value:
+              type: string
+              example: EUR
+            probability:
+              type: double
+              example: 0.6490880846977234
+        payment:
+          type: object
+          properties:
+            bank:
+              type: object
+              properties:
+                value:
+                  type: string
+                  example: Bank
+                probability:
+                  type: double
+                  example: 0.2568530738353729
+            iban:
+              type: object
+              properties:
+                value:
+                  type: string
+                  example: DE12111122223333444400
+                probability:
+                  type: double
+                  example: 0.8144313097000122
+            bic:
+              type: object
+              properties:
+                value:
+                  type: string
+                  example: RANDOMXXX
+                probability:
+                  type: double
+                  example: 0.884300947189331
+            terms:
+              type: object
+              properties:
+                dueDays:
+                  type: object
+                  properties:
+                    value:
+                      type: number
+                      example: 30
+                    probability:
+                      type: double
+                      example: 0
+                discount:
+                  type: object
+                  properties:
+                    value:
+                      type: number
+                      example: 0
+                    probability:
+                      type: double
+                      example: 0
+                type:
+                  type: object
+                  properties:
+                    type:
+                      type: string
+                      example: default
+                    probability:
+                      type: double
+                      example: 0
+            note:
+              type: object
+              properties:
+                value:
+                  type: string
+                  example: Within 30 days net from date of invoice
+                probability:
+                  type: double
+                  example: 0.5777591466903687
+        totals:
+          type: object
+          properties:
+            gross:
+              type: object
+              properties:
+                value:
+                  type: number
+                  example: 2625.89
+                probability:
+                  type: double
+                  example: 0.8420112729072571
+            net:
+              type: object
+              properties:
+                value:
+                  type: number
+                  example: 2170.16
+                probability:
+                  type: double
+                  example: 0.655083417892456
+            tax:
+              type: object
+              properties:
+                net:
+                  type: object
+                  properties:
+                    value:
+                      type: double
+                      example: 2170.16
+                    probability:
+                      type: double
+                      example: 0.655083417892456
+                amount:
+                  type: object
+                  properties:
+                    value:
+                      type: double
+                      example: 455.73
+                    probability:
+                      type: double
+                      example: 0.23930180072784424
+                rate:
+                  type: object
+                  properties:
+                    value:
+                      type: double
+                      example: 0.21
+                    probability:
+                      type: double
+                      example: 0.3082634508609772
+            due:
+              type: object
+              properties:
+                value:
+                  type: double
+                  example: 2625.89
+                probability:
+                  type: double
+                  example: 0.8420112729072571
+        items:
+          type: array
+          items:
+            type: object
+            properties:
+              name:
+                type: object
+                properties:
+                  value:
+                    type: string
+                    example: High quality cement for rabbit hole sealing
+                  probability:
+                    type: double
+                    example: 0.7640396271433149
+              unitNet:
+                type: object
+                properties:
+                  value:
+                    type: double
+                    example: 68.03
+                  probability:
+                    type: double
+                    example: 0.26339974999427795
+              positionTotalPrice:
+                type: object
+                properties:
+                  value:
+                    type: double
+                    example: 518.73
+                  probability:
+                    type: double
+                    example: 0.7435760498046875
+              qty:
+                type: object
+                properties:
+                  value:
+                    type: number
+                    example: 7625
+                  probability:
+                    type: double
+                    example: 0.24369847774505615
+              paid:
+                type: object
+                properties:
+                  value:
+                    type: boolean
+                    example: false
+                  probability:
+                    type: double
+                    example: 0

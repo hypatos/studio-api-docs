@@ -1,0 +1,16 @@
+get:
+  summary: Checks that the API is healthy.
+  operationId: healthCheck
+  tags:
+    - Health
+  responses:
+    '200':
+      description: Health response
+      content:
+        application/json:
+          schema:
+            $ref: '../components/schemas/Health.yaml'
+  x-codeSamples:
+    - lang: curl
+      source:
+        $ref: '../code-samples/health.txt'

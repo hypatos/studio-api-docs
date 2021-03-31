@@ -1,0 +1,6 @@
+in: path
+name: projectId
+schema:
+  type: string
+required: true
+description: The project identifier where the documents are stored.

@@ -1,0 +1,21 @@
+get:
+  summary: Retrieve a list of projects in the company.
+  operationId: listProjects
+  description: Retrieve a list of projects in the company.
+  tags:
+    - Projects
+  security:
+    - BasicAuth: []
+  responses:
+    '200':
+      description: List of projects
+      content:
+        application/json:
+          schema:
+            type: array
+            items:
+              $ref: '../components/schemas/ShallowProject.yaml'
+  x-codeSamples:
+    - lang: curl
+      source:
+        $ref: '../code-samples/projects.txt'

@@ -1,0 +1,6 @@
+in: path
+name: documentId
+schema:
+  type: string
+required: true
+description: The identifier of the document to retrieve.

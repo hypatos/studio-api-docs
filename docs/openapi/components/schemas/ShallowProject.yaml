@@ -1,0 +1,20 @@
+type: object
+required:
+  - id
+  - name
+  - slug
+  - createdAt
+properties:
+  id:
+    type: string
+    example: 6040dc9680b782b365ea77d5
+  name:
+    type: string
+    example: My Project 1
+  slug:
+    type: string
+    example: my-project-1-xw7deac0
+  createdAt:
+    type: string
+    format: date-time
+    example: 2021-03-04 13:12:30.612000

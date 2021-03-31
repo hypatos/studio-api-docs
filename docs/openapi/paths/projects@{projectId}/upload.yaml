@@ -1,0 +1,23 @@
+post:
+  summary: Upload document
+  operationId: uploadDocument
+  description: Upload a document file to Hypatos Studio into a selected Project. Since the upload happens asynchronously, a successful response only signify acknowledgement of the upload.
+  tags:
+    - Documents
+  security:
+    - BasicAuth: []
+  parameters:
+    - $ref: '../../components/parameters/projectId.yaml'
+  responses:
+    '201':
+      description: File uploaded
+      content:
+        application/json:
+          schema:
+            $ref: '../../components/schemas/UploadResult.yaml'
+  requestBody:
+    $ref: '../../components/requestBodies/upload.yaml'
+  x-codeSamples:
+    - lang: curl
+      source:
+        $ref: '../../code-samples/projects@{projectId}/upload.txt'

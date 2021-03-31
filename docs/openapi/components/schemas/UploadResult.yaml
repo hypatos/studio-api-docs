@@ -1,0 +1,7 @@
+type: object
+required:
+  - documentId
+properties:
+  documentId:
+    type: string
+    example: 602a21b9f345f8301b028a77

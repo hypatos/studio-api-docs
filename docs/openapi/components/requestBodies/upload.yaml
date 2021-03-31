@@ -1,0 +1,19 @@
+description: 'File to upload'
+required: true
+content:
+  image/png:
+    schema:
+      type: string
+      format: binary
+  image/jpg:
+    schema:
+      type: string
+      format: binary
+  image/pdf:
+    schema:
+      type: string
+      format: binary
+  image/tiff:
+    schema:
+      type: string
+      format: binary
