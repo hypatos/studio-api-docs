@@ -1,0 +1,11 @@
+type: object
+required:
+  - documents
+  - meta
+properties:
+  documents:
+    type: array
+    items:
+      $ref: './ShallowDocument.yaml'
+  meta:
+    $ref: './Meta.yaml'

@@ -1,0 +1,19 @@
+type: object
+required:
+  - limit
+  - offset
+  - hasMore
+  - total
+properties:
+  limit:
+    type: number
+    example: 20
+  offset:
+    type: number
+    example: 0
+  hasMore:
+    type: boolean
+    example: true
+  total:
+    type: number
+    example: 44
