@@ -6,6 +6,6 @@ properties:
   data:
     type: array
     items:
-      $ref: './ShallowDocument.yaml'
+      $ref: './ShallowProject.yaml'
   meta:
     $ref: './Meta.yaml'
