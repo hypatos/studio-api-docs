@@ -1,0 +1,7 @@
+in: query
+name: limit
+schema:
+  type: number
+  default: 20
+required: false
+description: The limit of items to return in the current request

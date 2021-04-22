@@ -12,9 +12,7 @@ get:
       content:
         application/json:
           schema:
-            type: array
-            items:
-              $ref: '../components/schemas/ShallowProject.yaml'
+            $ref: '../../components/schemas/Projects.yaml'
   x-codeSamples:
     - lang: curl
       source:

@@ -1,0 +1,7 @@
+in: query
+name: offset
+schema:
+  type: number
+  default: 0
+required: false
+description: The number of items to skip

@@ -1,0 +1,7 @@
+in: query
+name: lastModifiedBefore
+schema:
+  type: string
+  format: date-time
+required: false
+description: The latest modified document to retrieve.

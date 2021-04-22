@@ -1,0 +1,7 @@
+in: query
+name: lastModifiedAfter
+schema:
+  type: string
+  format: date-time
+required: false
+description: The earliest modified document to retrieve.

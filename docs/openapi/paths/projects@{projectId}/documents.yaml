@@ -9,29 +9,17 @@ get:
     - BasicAuth: [ ]
   parameters:
     - $ref: '../../components/parameters/projectId.yaml'
-    - in: query
-      name: lastModifiedBefore
-      schema:
-        type: string
-        format: date-time
-      required: false
-      description: The latest modified document to retrieve.
-    - in: query
-      name: lastModifiedAfter
-      schema:
-        type: string
-        format: date-time
-      required: false
-      description: The earliest modified document to retrieve.
+    - $ref: '../../components/parameters/lastModifiedBefore.yaml'
+    - $ref: '../../components/parameters/lastModifiedAfter.yaml'
+    - $ref: '../../components/parameters/offset.yaml'
+    - $ref: '../../components/parameters/limit.yaml'
   responses:
     '200':
       description: List of documents
       content:
         application/json:
           schema:
-            type: array
-            items:
-              $ref: '../../components/schemas/ShallowDocument.yaml'
+            $ref: '../../components/schemas/Documents.yaml'
     '404':
       $ref: '../../components/responses/NotFound.yaml'
   x-codeSamples:
