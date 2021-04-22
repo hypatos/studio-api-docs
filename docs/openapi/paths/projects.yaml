@@ -12,7 +12,7 @@ get:
       content:
         application/json:
           schema:
-            $ref: '../../components/schemas/Projects.yaml'
+            $ref: '../components/schemas/Projects.yaml'
   x-codeSamples:
     - lang: curl
       source:
