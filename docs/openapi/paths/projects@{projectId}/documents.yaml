@@ -20,6 +20,8 @@ get:
         application/json:
           schema:
             $ref: '../../components/schemas/Documents.yaml'
+    '404':
+      $ref: '../../components/responses/NotFound.yaml'
   x-codeSamples:
     - lang: curl
       source:
