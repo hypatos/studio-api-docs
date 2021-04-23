@@ -1,5 +1,5 @@
 {
-  "name": "hy-api",
+  "name": "hypatos-rest-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/drobiazko/hy-api.git"
+    "url": "git+https://github.com/hypatos/studio-api-docs.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/drobiazko/hy-api/issues"
+    "url": "https://github.com/hypatos/studio-api-docs/issues"
   },
-  "homepage": "https://github.com/drobiazko/hy-api#readme",
+  "homepage": "https://github.com/hypatos/studio-api-docs#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",

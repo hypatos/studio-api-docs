@@ -12,5 +12,5 @@ app.use(cors())
 app.use('/docs', express.static('docs'));
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
+  console.log(`See the docs at http://localhost:${port}/docs/local.html`)
 })
