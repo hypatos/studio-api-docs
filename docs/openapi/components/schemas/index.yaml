@@ -1,8 +1,0 @@
-Health:
-  $ref: "./Health.yaml"
-ShallowDocument:
-  $ref: "./ShallowDocument.yaml"
-ShallowProject:
-  $ref: "./ShallowProject.yaml"
-UploadResult:
-  $ref: "./UploadResult.yaml"
