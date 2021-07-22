@@ -1,7 +1,7 @@
 description: 'File to upload'
 required: true
 content:
-  image/png:
+  application/pdf:
     schema:
       type: string
       format: binary
@@ -9,7 +9,7 @@ content:
     schema:
       type: string
       format: binary
-  image/pdf:
+  image/png:
     schema:
       type: string
       format: binary
