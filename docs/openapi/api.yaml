@@ -99,6 +99,15 @@ paths:
     $ref: './paths/projects@{projectId}/upload.yaml'
 components:
   securitySchemes:
-    $ref: './components/security-schemes/index.yaml'
+    BasicAuth:
+      type: http
+      scheme: basic
   schemas:
-    $ref: './components/schemas/index.yaml'
+    Health:
+      $ref: "./components/schemas/Health.yaml"
+    ShallowDocument:
+      $ref: "./components/schemas/ShallowDocument.yaml"
+    ShallowProject:
+      $ref: "./components/schemas/ShallowProject.yaml"
+    UploadResult:
+      $ref: "./components/schemas/UploadResult.yaml"
