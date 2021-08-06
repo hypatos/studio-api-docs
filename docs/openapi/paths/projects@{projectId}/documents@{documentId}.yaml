@@ -1,8 +1,68 @@
 get:
   summary: Retrieve a document by id.
   operationId: getDocumentById
-  description: Retrieve a specific document including the
-    extracted and completed data (entities).
+ description: Retrieve a specific document including the extracted and completed data (entities). 
+    State property of document shown differently on UI and in API, so here is mapping table
+
+    <table>
+      <tr>
+        <td>UI</td>
+        <td>API</td>
+      </tr>
+      <tr>
+        <td>Completed by user</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>Completed by Studio</td>
+        <td>DoneAutomatically</td>
+      </tr>
+      <tr>
+        <td>Ready for completion</td>
+        <td>Extracted</td>
+      </tr>
+      <tr>
+        <td>In completion</td>
+        <td>InCompletion</td>
+      </tr>
+      <tr>
+        <td>Review required</td>
+        <td>ReviewRequired</td>
+      </tr>
+      <tr>
+        <td>Uploading & Processing</td>
+        <td>Processing</td>
+      </tr>
+      <tr>
+        <td>Marked as junk</td>
+        <td>Junk</td>
+      </tr>
+      <tr>
+        <td>Split</td>
+        <td>Split</td>
+      </tr>
+      <tr>
+        <td>Failed</td>
+        <td>Failed</td>
+      </tr>
+      <tr>
+        <td>Ready to label</td>
+        <td>Unlabeled</td>
+      </tr>
+      <tr>
+        <td>In labelling</td>
+        <td>InLabelling</td>
+      </tr>
+      <tr>
+        <td>Transferred</td>
+        <td>Transferred</td>
+      </tr>
+      <tr>
+        <td>Failed Transfer</td>
+        <td>TransferFailed</td>
+      </tr>
+    </table>
+    
   tags:
     - Documents
   security:
