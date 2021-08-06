@@ -11,55 +11,55 @@ get:
       </tr>
       <tr>
         <td>Completed by user</td>
-        <td>Done</td>
+        <td>done</td>
       </tr>
       <tr>
         <td>Completed by Studio</td>
-        <td>DoneAutomatically</td>
+        <td>doneAutomatically</td>
       </tr>
       <tr>
         <td>Ready for completion</td>
-        <td>Extracted</td>
+        <td>extracted</td>
       </tr>
       <tr>
         <td>In completion</td>
-        <td>InCompletion</td>
+        <td>inCompletion</td>
       </tr>
       <tr>
         <td>Review required</td>
-        <td>ReviewRequired</td>
+        <td>reviewRequired</td>
       </tr>
       <tr>
         <td>Uploading & Processing</td>
-        <td>Processing</td>
+        <td>processing</td>
       </tr>
       <tr>
         <td>Marked as junk</td>
-        <td>Junk</td>
+        <td>junk</td>
       </tr>
       <tr>
         <td>Split</td>
-        <td>Split</td>
+        <td>split</td>
       </tr>
       <tr>
         <td>Failed</td>
-        <td>Failed</td>
+        <td>failed</td>
       </tr>
       <tr>
         <td>Ready to label</td>
-        <td>Unlabeled</td>
+        <td>unlabeled</td>
       </tr>
       <tr>
         <td>In labelling</td>
-        <td>InLabelling</td>
+        <td>inLabelling</td>
       </tr>
       <tr>
         <td>Transferred</td>
-        <td>Transferred</td>
+        <td>transferred</td>
       </tr>
       <tr>
         <td>Failed Transfer</td>
-        <td>TransferFailed</td>
+        <td>transferFailed</td>
       </tr>
     </table>
     
