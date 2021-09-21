@@ -1,0 +1,4 @@
+curl -X PATCH -H "Content-Type: application/json" \
+      -H "Authorization: Basic YWRtaW46c2VjcmV0" \
+      -d '{"state": "transferred"}' \
+  https://api.studio.hypatos.ai/v1/projects/12345/documents/67890

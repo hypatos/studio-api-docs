@@ -1,0 +1,15 @@
+description: 'Document Update'
+required: true
+content:
+  application/json:
+    schema:
+      type: object
+      required: [state]
+      properties:
+        state:
+          type: string
+          description: New state of the document
+          enum: [transferred, transferFailed]
+        failureReason:
+          type: string
+          description: Reason why the transfer of the document failed
