@@ -8,7 +8,7 @@ properties:
   id:
     type: string
     example: 6040dc9680b782b365ea77d5
-  title:
+  fileName:
     type: string
     example: scan-doc-1.jpg
   state:
