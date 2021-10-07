@@ -38,7 +38,7 @@ info:
 tags:
   - name: Documents
     description: |
-      Hypatos studio offers upload via UI or API and supports a variety of different file types: PDF, TIF, JPEG, and PNG. 
+      Hypatos studio offers upload via UI or API and supports a variety of different file types: PDF, TIFF, JPEG, and PNG.
   - name: Projects
     description: |
       Every company in Hypatos studio may have multiple projects.
