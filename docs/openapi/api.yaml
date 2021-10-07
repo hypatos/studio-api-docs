@@ -29,41 +29,8 @@ info:
     
     where `<credentials>` is the base64-encoded string
     formed by `<application_id>:<application_key>`.
-    # Webhooks
 
-    Hypatos Studio allows you to define webhook URLs in the
-    API settings area. Two types of webhooks are supported:
-    `OnProcessingComplete` and `OnDocumentComplete`.
-
-    The `OnProcessingComplete` webhook is triggered when the
-    upload and processing of a document initiated through the
-    REST API is complete. It will send a POST request to the URL
-    provided in the configuration parameter `on_processing_complete_hook_url`
-    with the following payload:
-
-
-    ````json
-    {
-        "processingComplete": true,
-        "projectId": "602bdd8a2622e20a638dc1bc",
-        "documentId": "602a21b9f345f8301b028a77"
-    }
-    ````
-
-    The `OnDocumentComplete` webhook is triggered when a document uploaded
-    through the REST API is marked as "completed" through the Studio UI. It
-    will send a POST request to the URL provided in the configuration parameter
-    `on_document_complete_hook_url` with the following payload:
-
-    ````json
-    {
-      "documentComplete": true,
-      "projectId": "602bdd8a2622e20a638dc1bc",
-      "documentId": "602a21b9f345f8301b028a77"
-    }
-    ````
-
-  version: 0.0.2
+  version: 0.0.3
   title: Hypatos API
   license:
     name: Apache 2.0
