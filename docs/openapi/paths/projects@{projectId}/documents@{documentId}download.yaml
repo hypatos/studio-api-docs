@@ -1,0 +1,38 @@
+get:
+  summary: Download file by document id.
+  operationId: downloadFileByDocumentId
+  description: Download a physical file by document id
+
+  tags:
+    - Documents
+  security:
+    - BasicAuth: [ ]
+  parameters:
+    - $ref: '../../components/parameters/projectId.yaml'
+    - $ref: '../../components/parameters/documentId.yaml'
+  responses:
+    '200':
+      description: The requested file
+      content:
+        application/pdf:
+          schema:
+            type: string
+            format: binary
+        image/jpg:
+          schema:
+            type: string
+            format: binary
+        image/png:
+          schema:
+            type: string
+            format: binary
+        image/tiff:
+          schema:
+            type: string
+            format: binary
+    '404':
+      $ref: '../../components/responses/NotFound.yaml'
+  x-codeSamples:
+    - lang: curl
+      source:
+        $ref: '../../code-samples/projects@{projectId}/documents@{documentId}download.txt'
