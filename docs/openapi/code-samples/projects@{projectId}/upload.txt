@@ -1,4 +1,5 @@
 curl -X POST \
   --form 'file=@"scan_invoice.pdf"' \
+  --form 'externalData="{\"yourField1\":\"yourValue1\"}"'\
   -H "Authorization: Basic YWRtaW46c2VjcmV0" \
   https://api.studio.hypatos.ai/v1/projects/12345/documents/upload

@@ -3,8 +3,12 @@ required: true
 content:
   multipart/form-data:
     schema:
+      type: object
+      required: [file]
       properties:
         file:
           type: string
           description: A PDF, TIFF, JPEG or PNG file to upload
-          required: true
+        externalData:
+          type: string
+          description: Document external data, including any externalId that will be used for mapping
