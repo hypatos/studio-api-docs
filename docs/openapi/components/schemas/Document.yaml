@@ -17,7 +17,7 @@ properties:
   updatedAt:
     type: string
     format: date-time
-    example: 2021-03-11 13:34:33.885000
+    example: '2021-03-11 13:34:33.885000'
   entities:
     type: array
     items:

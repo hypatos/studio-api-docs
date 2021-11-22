@@ -17,4 +17,4 @@ properties:
   updatedAt:
     type: string
     format: date-time
-    example: 2021-03-04 13:12:30.612000
+    example: '2021-03-04 13:12:30.612000'
