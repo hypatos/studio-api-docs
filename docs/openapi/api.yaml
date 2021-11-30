@@ -62,6 +62,8 @@ paths:
     $ref: './paths/projects@{projectId}/documents.yaml'
   /projects/{projectId}/documents/{documentId}:
     $ref: './paths/projects@{projectId}/documents@{documentId}.yaml'
+  /projects/{projectId}/documents/{documentId}/update:
+    $ref: './paths/projects@{projectId}/documents@{documentId}update.yaml'
   /projects/{projectId}/documents/{documentId}/download:
     $ref: './paths/projects@{projectId}/documents@{documentId}download.yaml'
   /projects/{projectId}/documents/upload:

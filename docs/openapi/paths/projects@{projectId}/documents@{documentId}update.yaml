@@ -1,0 +1,26 @@
+post:
+  summary: Update a document's status
+  operationId: patchDocumentByIdPost
+  description: Update document's status using POST method
+  tags:
+    - Documents
+  security:
+    - BasicAuth: [ ]
+  parameters:
+    - $ref: '../../components/parameters/projectId.yaml'
+    - $ref: '../../components/parameters/documentId.yaml'
+  requestBody:
+    $ref: '../../components/requestBodies/documentStatus.yaml'
+  responses:
+    '200':
+      description: The document after status update
+      content:
+        application/json:
+          schema:
+            $ref: '../../components/schemas/ShallowDocument.yaml'
+    '404':
+      $ref: '../../components/responses/NotFound.yaml'
+  x-codeSamples:
+    - lang: curl
+      source:
+        $ref: '../../code-samples/projects@{projectId}/patch_documents@{documentId}.txt'
