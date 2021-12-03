@@ -18,6 +18,13 @@ properties:
     type: string
     format: date-time
     example: '2021-03-11 13:34:33.885000'
+  completedAt:
+    type: string
+    format: date-time
+    example: '2021-03-11 13:34:33.885000'
+  completedBy:
+    type: string
+    example: 6040dc9680b782b365ea78e5
   entities:
     type: array
     items:
