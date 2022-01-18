@@ -84,9 +84,9 @@ get:
       source:
         $ref: '../../code-samples/projects@{projectId}/documents@{documentId}.txt'
 patch:
-  summary: Update a document data
+  summary: Update document data
   operationId: patchDocumentById
-  description: Update document's data
+  summary: Update document data
   tags:
     - Documents
   security:

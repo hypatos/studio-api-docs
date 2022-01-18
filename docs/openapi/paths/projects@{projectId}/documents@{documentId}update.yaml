@@ -1,5 +1,5 @@
 post:
-  summary: Update a document data
+  summary: Update document data
   operationId: patchDocumentByIdPost
   description: This is required for SAP PI 7.3 and lower which doesn't support PATCH method. Update document using POST method
   tags:
