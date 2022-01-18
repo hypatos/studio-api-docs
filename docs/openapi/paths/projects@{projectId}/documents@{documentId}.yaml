@@ -86,7 +86,6 @@ get:
 patch:
   summary: Update document data
   operationId: patchDocumentById
-  summary: Update document data
   tags:
     - Documents
   security:
