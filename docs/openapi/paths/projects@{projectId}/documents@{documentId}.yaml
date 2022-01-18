@@ -84,9 +84,8 @@ get:
       source:
         $ref: '../../code-samples/projects@{projectId}/documents@{documentId}.txt'
 patch:
-  summary: Update a document's status
+  summary: Update document data
   operationId: patchDocumentById
-  description: Update document's status
   tags:
     - Documents
   security:
@@ -95,10 +94,10 @@ patch:
     - $ref: '../../components/parameters/projectId.yaml'
     - $ref: '../../components/parameters/documentId.yaml'
   requestBody:
-    $ref: '../../components/requestBodies/documentStatus.yaml'
+    $ref: '../../components/requestBodies/documentUpdate.yaml'
   responses:
     '200':
-      description: The document after status update
+      description: The document after update
       content:
         application/json:
           schema:

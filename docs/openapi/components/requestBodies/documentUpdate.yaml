@@ -13,3 +13,9 @@ content:
         failureReason:
           type: string
           description: Reason why the transfer of the document failed
+        externalData:
+          type: object
+          description: External document data
+        fileName:
+          type: string
+          description: Document file name

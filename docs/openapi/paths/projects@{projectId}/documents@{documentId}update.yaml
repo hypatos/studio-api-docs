@@ -1,7 +1,7 @@
 post:
-  summary: Update a document's status
+  summary: Update document data
   operationId: patchDocumentByIdPost
-  description: Update document's status using POST method
+  description: This is required for SAP PI 7.3 and lower which doesn't support PATCH method. Update document using POST method
   tags:
     - Documents
   security:
@@ -10,10 +10,10 @@ post:
     - $ref: '../../components/parameters/projectId.yaml'
     - $ref: '../../components/parameters/documentId.yaml'
   requestBody:
-    $ref: '../../components/requestBodies/documentStatus.yaml'
+    $ref: '../../components/requestBodies/documentUpdate.yaml'
   responses:
     '200':
-      description: The document after status update
+      description: The document after update
       content:
         application/json:
           schema:
