@@ -1,1 +1,1 @@
-curl https://api.studio.hypatos.ai/health
+curl https://api.cloud.hypatos.ai/health

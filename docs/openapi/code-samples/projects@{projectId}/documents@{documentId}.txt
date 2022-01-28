@@ -1,2 +1,2 @@
 curl -H "Authorization: Basic YWRtaW46c2VjcmV0" \
-  https://api.studio.hypatos.ai/v1/projects/12345/documents/67890
+  https://api.cloud.hypatos.ai/v1/projects/12345/documents/67890
