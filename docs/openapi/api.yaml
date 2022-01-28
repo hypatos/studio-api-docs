@@ -1,7 +1,7 @@
 openapi: 3.0.0
 servers:
   - description: Production API
-    url: https://api.studio.hypatos.ai/v1
+    url: https://api.cloud.hypatos.ai/v1
   - description: Staging API
     url: https://api.studio.stage.hypatos.ai
 info:
