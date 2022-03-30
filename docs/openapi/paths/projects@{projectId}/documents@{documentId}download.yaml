@@ -4,7 +4,7 @@ get:
   description: Download a physical file by document id
 
   tags:
-    - Documents
+    - Project documents
   security:
     - BasicAuth: [ ]
   parameters:

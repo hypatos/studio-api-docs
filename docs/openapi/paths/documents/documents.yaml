@@ -1,10 +1,10 @@
 get:
-  summary: Retrieve a list of documents.
-  operationId: listProjectDocuments
-  description: Retrieve a list of documents in a project possibly scoped by time and project.
+  summary: Retrieve a list of documents
+  operationId: listDocuments
+  description: Retrieve a list of documents possibly scoped by time and project.
     Lists completed documents only by default
   tags:
-    - Project documents
+    - Documents
   security:
     - BasicAuth: [ ]
   parameters:
@@ -26,4 +26,4 @@ get:
   x-codeSamples:
     - lang: curl
       source:
-        $ref: '../../code-samples/projects@{projectId}/documents.txt'
+        $ref: '../../code-samples/documents/documents.txt'
