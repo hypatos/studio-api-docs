@@ -64,7 +64,7 @@ get:
     </table>
     
   tags:
-    - Documents
+    - Project documents
   security:
     - BasicAuth: [ ]
   parameters:
@@ -87,7 +87,7 @@ patch:
   summary: Update document data
   operationId: patchDocumentById
   tags:
-    - Documents
+    - Project documents
   security:
     - BasicAuth: [ ]
   parameters:

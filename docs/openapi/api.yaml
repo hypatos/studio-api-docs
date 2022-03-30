@@ -38,6 +38,9 @@ info:
 tags:
   - name: Documents
     description: |
+      API to work with all documents across the company.
+  - name: Project documents
+    description: |
       Hypatos studio offers upload via UI or API and supports a variety of different file types: PDF, TIFF, JPEG, and PNG.
   - name: Projects
     description: |
@@ -49,6 +52,7 @@ x-tagGroups:
   - name: Projects & Documents
     tags:
       - Projects
+      - Project documents
       - Documents
   - name: Misc
     tags:
@@ -58,6 +62,8 @@ paths:
     $ref: './paths/health.yaml'
   /projects/:
     $ref: './paths/projects.yaml'
+  /documents:
+    $ref: './paths/documents/documents.yaml'
   /projects/{projectId}/documents:
     $ref: './paths/projects@{projectId}/documents.yaml'
   /projects/{projectId}/documents/{documentId}:

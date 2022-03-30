@@ -3,7 +3,7 @@ post:
   operationId: uploadDocument
   description: Upload a document file to Hypatos Studio into a selected Project. Since the upload happens asynchronously, a successful response only signify acknowledgement of the upload.
   tags:
-    - Documents
+    - Project documents
   security:
     - BasicAuth: []
   parameters:
