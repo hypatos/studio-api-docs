@@ -1,0 +1,11 @@
+in: query
+name: state
+schema:
+  type: array
+  default: ["done", "doneAutomatically"]
+  example: ["inCompletion", "inLabelling"]
+  items:
+    type: string
+    enum: [new, processing, unlabeled, done, doneAutomatically, junk, extracted, failed, split, inCompletion, inLabelling, reviewRequired, transferred, transferFailed]
+required: false
+description: Current document state

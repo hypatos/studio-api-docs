@@ -1,14 +1,15 @@
 get:
-  summary: Retrieve a list of completed documents.
+  summary: Retrieve a list of documents.
   operationId: listDocuments
-  description: Retrieve a list of documents which have
-    been completed possibly scoped by time and project.
+  description: Retrieve a list of documents possibly scoped by time and project.
+    Lists completed documents only by default
   tags:
     - Documents
   security:
     - BasicAuth: [ ]
   parameters:
     - $ref: '../../components/parameters/projectId.yaml'
+    - $ref: '../../components/parameters/state.yaml'
     - $ref: '../../components/parameters/lastModifiedBefore.yaml'
     - $ref: '../../components/parameters/lastModifiedAfter.yaml'
     - $ref: '../../components/parameters/offset.yaml'
