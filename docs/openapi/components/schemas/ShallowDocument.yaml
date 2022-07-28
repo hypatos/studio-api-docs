@@ -15,6 +15,10 @@ properties:
   state:
     type: string
     example: done
+  uploadedAt:
+    type: string
+    format: date-time
+    example: '2021-03-04 13:12:29.612000'
   updatedAt:
     type: string
     format: date-time
