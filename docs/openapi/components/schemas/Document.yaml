@@ -29,6 +29,9 @@ properties:
   completedBy:
     type: string
     example: 6040dc9680b782b365ea78e5
+  externalId:
+    type: string
+    example: 158193419595014193ab324d
   entities:
     type: array
     items:

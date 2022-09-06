@@ -19,3 +19,6 @@ content:
         fileName:
           type: string
           description: Document file name
+        externalId:
+          type: string
+          description: External document identifier
