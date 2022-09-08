@@ -26,3 +26,6 @@ properties:
   projectId:
     type: string
     example: "6228d5f45b8f6fc9b637ed73"
+  externalId:
+    type: string
+    example: "158193419595014193ab324d"
