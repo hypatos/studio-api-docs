@@ -42,6 +42,10 @@ get:
         <td>split</td>
       </tr>
       <tr>
+        <td>Rejected</td>
+        <td>rejected</td>
+      </tr>
+      <tr>
         <td>Failed</td>
         <td>failed</td>
       </tr>
