@@ -9,7 +9,7 @@ content:
         state:
           type: string
           description: New state of the document
-          enum: [transferred, transferFailed]
+          enum: [rejected, transferred, transferFailed]
         failureReason:
           type: string
           description: Reason why the transfer of the document failed
