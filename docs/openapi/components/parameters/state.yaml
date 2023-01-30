@@ -3,9 +3,9 @@ name: state
 schema:
   type: array
   default: ["done", "doneAutomatically"]
-  example: ["inCompletion", "inLabelling"]
+  example: ["extracted", "inCompletion"]
   items:
     type: string
-    enum: [new, processing, unlabeled, done, doneAutomatically, junk, extracted, failed, split, rejected, inCompletion, inLabelling, reviewRequired, transferred, transferFailed]
+    enum: [new, processing, done, doneAutomatically, junk, extracted, failed, split, rejected, inCompletion, reviewRequired, transferred, transferFailed]
 required: false
 description: Current document state
