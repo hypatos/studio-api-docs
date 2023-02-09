@@ -50,14 +50,6 @@ get:
         <td>failed</td>
       </tr>
       <tr>
-        <td>Ready to label</td>
-        <td>unlabeled</td>
-      </tr>
-      <tr>
-        <td>In labelling</td>
-        <td>inLabelling</td>
-      </tr>
-      <tr>
         <td>Transferred</td>
         <td>transferred</td>
       </tr>
