@@ -1,0 +1,6 @@
+in: query
+name: regions
+schema:
+  type: bool
+required: false
+description: Add regions to document entities response
