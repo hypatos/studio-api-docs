@@ -49,6 +49,24 @@ properties:
                 probability:
                   type: double
                   example: 0.9562899470329285
+                region:
+                  type: object
+                  properties:
+                    left:
+                      type: double
+                      example: 0.7254032258064517
+                    top:
+                      type: double
+                      example: 0.16989737742303307
+                    width:
+                      type: double
+                      example: 0.029435483870967727
+                    height:
+                      type: double
+                      example: 0.008266818700114031
+                    page:
+                      type: integer
+                      example: 1                  
             postcode:
               type: object
               properties:
@@ -58,6 +76,24 @@ properties:
                 probability:
                   type: double
                   example: 0.9567813873291016
+                region:
+                  type: object
+                  properties:
+                    left:
+                      type: double
+                      example: 0.7254032258064517
+                    top:
+                      type: double
+                      example: 0.16989737742303307
+                    width:
+                      type: double
+                      example: 0.029435483870967727
+                    height:
+                      type: double
+                      example: 0.008266818700114031
+                    page:
+                      type: integer
+                      example: 1                  
             city:
               type: object
               properties:
@@ -67,6 +103,24 @@ properties:
                 probability:
                   type: double
                   example: 0.9663658142089844
+                region:
+                  type: object
+                  properties:
+                    left:
+                      type: double
+                      example: 0.7254032258064517
+                    top:
+                      type: double
+                      example: 0.16989737742303307
+                    width:
+                      type: double
+                      example: 0.029435483870967727
+                    height:
+                      type: double
+                      example: 0.008266818700114031
+                    page:
+                      type: integer
+                      example: 1                  
             country:
               type: object
               properties:
@@ -76,6 +130,24 @@ properties:
                 probability:
                   type: double
                   example: 0.977552592754364
+                region:
+                  type: object
+                  properties:
+                    left:
+                      type: double
+                      example: 0.7254032258064517
+                    top:
+                      type: double
+                      example: 0.16989737742303307
+                    width:
+                      type: double
+                      example: 0.029435483870967727
+                    height:
+                      type: double
+                      example: 0.008266818700114031
+                    page:
+                      type: integer
+                      example: 1                  
             companyName:
               type: object
               properties:
@@ -85,6 +157,24 @@ properties:
                 probability:
                   type: double
                   example: 0.9740933775901794
+                region:
+                  type: object
+                  properties:
+                    left:
+                      type: double
+                      example: 0.7254032258064517
+                    top:
+                      type: double
+                      example: 0.16989737742303307
+                    width:
+                      type: double
+                      example: 0.029435483870967727
+                    height:
+                      type: double
+                      example: 0.008266818700114031
+                    page:
+                      type: integer
+                      example: 1                  
         number:
           type: object
           properties:
@@ -93,7 +183,25 @@ properties:
               example: '12345'
             probability:
               type: double
-              example: 0.9691528081893921
+              example: 0.9691528081893921,
+            region:
+              type: object
+              properties:
+                left:
+                  type: double
+                  example: 0.7254032258064517
+                top:
+                  type: double
+                  example: 0.16989737742303307
+                width:
+                  type: double
+                  example: 0.029435483870967727
+                height:
+                  type: double
+                  example: 0.008266818700114031
+                page:
+                  type: integer
+                  example: 1
         currency:
           type: object
           properties:
@@ -103,6 +211,24 @@ properties:
             probability:
               type: double
               example: 0.6490880846977234
+            region:
+              type: object
+              properties:
+                left:
+                  type: double
+                  example: 0.7254032258064517
+                top:
+                  type: double
+                  example: 0.16989737742303307
+                width:
+                  type: double
+                  example: 0.029435483870967727
+                height:
+                  type: double
+                  example: 0.008266818700114031
+                page:
+                  type: integer
+                  example: 1              
         payment:
           type: object
           properties:
@@ -115,6 +241,24 @@ properties:
                 probability:
                   type: double
                   example: 0.2568530738353729
+                region:
+                  type: object
+                  properties:
+                    left:
+                      type: double
+                      example: 0.7254032258064517
+                    top:
+                      type: double
+                      example: 0.16989737742303307
+                    width:
+                      type: double
+                      example: 0.029435483870967727
+                    height:
+                      type: double
+                      example: 0.008266818700114031
+                    page:
+                      type: integer
+                      example: 1                  
             iban:
               type: object
               properties:
@@ -124,6 +268,24 @@ properties:
                 probability:
                   type: double
                   example: 0.8144313097000122
+                region:
+                  type: object
+                  properties:
+                    left:
+                      type: double
+                      example: 0.7254032258064517
+                    top:
+                      type: double
+                      example: 0.16989737742303307
+                    width:
+                      type: double
+                      example: 0.029435483870967727
+                    height:
+                      type: double
+                      example: 0.008266818700114031
+                    page:
+                      type: integer
+                      example: 1                  
             bic:
               type: object
               properties:
@@ -133,6 +295,24 @@ properties:
                 probability:
                   type: double
                   example: 0.884300947189331
+                region:
+                  type: object
+                  properties:
+                    left:
+                      type: double
+                      example: 0.7254032258064517
+                    top:
+                      type: double
+                      example: 0.16989737742303307
+                    width:
+                      type: double
+                      example: 0.029435483870967727
+                    height:
+                      type: double
+                      example: 0.008266818700114031
+                    page:
+                      type: integer
+                      example: 1                  
             terms:
               type: object
               properties:
@@ -145,6 +325,24 @@ properties:
                     probability:
                       type: double
                       example: 0
+                    region:
+                      type: object
+                      properties:
+                        left:
+                          type: double
+                          example: 0.7254032258064517
+                        top:
+                          type: double
+                          example: 0.16989737742303307
+                        width:
+                          type: double
+                          example: 0.029435483870967727
+                        height:
+                          type: double
+                          example: 0.008266818700114031
+                        page:
+                          type: integer
+                          example: 1
                 discount:
                   type: object
                   properties:
@@ -154,6 +352,24 @@ properties:
                     probability:
                       type: double
                       example: 0
+                    region:
+                      type: object
+                      properties:
+                        left:
+                          type: double
+                          example: 0.7254032258064517
+                        top:
+                          type: double
+                          example: 0.16989737742303307
+                        width:
+                          type: double
+                          example: 0.029435483870967727
+                        height:
+                          type: double
+                          example: 0.008266818700114031
+                        page:
+                          type: integer
+                          example: 1                      
                 type:
                   type: object
                   properties:
@@ -163,6 +379,24 @@ properties:
                     probability:
                       type: double
                       example: 0
+                    region:
+                      type: object
+                      properties:
+                        left:
+                          type: double
+                          example: 0.7254032258064517
+                        top:
+                          type: double
+                          example: 0.16989737742303307
+                        width:
+                          type: double
+                          example: 0.029435483870967727
+                        height:
+                          type: double
+                          example: 0.008266818700114031
+                        page:
+                          type: integer
+                          example: 1                      
             note:
               type: object
               properties:
@@ -172,6 +406,24 @@ properties:
                 probability:
                   type: double
                   example: 0.5777591466903687
+                region:
+                  type: object
+                  properties:
+                    left:
+                      type: double
+                      example: 0.7254032258064517
+                    top:
+                      type: double
+                      example: 0.16989737742303307
+                    width:
+                      type: double
+                      example: 0.029435483870967727
+                    height:
+                      type: double
+                      example: 0.008266818700114031
+                    page:
+                      type: integer
+                      example: 1                  
         totals:
           type: object
           properties:
@@ -184,6 +436,24 @@ properties:
                 probability:
                   type: double
                   example: 0.8420112729072571
+                region:
+                  type: object
+                  properties:
+                    left:
+                      type: double
+                      example: 0.7254032258064517
+                    top:
+                      type: double
+                      example: 0.16989737742303307
+                    width:
+                      type: double
+                      example: 0.029435483870967727
+                    height:
+                      type: double
+                      example: 0.008266818700114031
+                    page:
+                      type: integer
+                      example: 1
             net:
               type: object
               properties:
@@ -193,6 +463,24 @@ properties:
                 probability:
                   type: double
                   example: 0.655083417892456
+                region:
+                  type: object
+                  properties:
+                    left:
+                      type: double
+                      example: 0.7254032258064517
+                    top:
+                      type: double
+                      example: 0.16989737742303307
+                    width:
+                      type: double
+                      example: 0.029435483870967727
+                    height:
+                      type: double
+                      example: 0.008266818700114031
+                    page:
+                      type: integer
+                      example: 1                      
             tax:
               type: object
               properties:
@@ -205,6 +493,24 @@ properties:
                     probability:
                       type: double
                       example: 0.655083417892456
+                    region:
+                      type: object
+                      properties:
+                        left:
+                          type: double
+                          example: 0.7254032258064517
+                        top:
+                          type: double
+                          example: 0.16989737742303307
+                        width:
+                          type: double
+                          example: 0.029435483870967727
+                        height:
+                          type: double
+                          example: 0.008266818700114031
+                        page:
+                          type: integer
+                          example: 1                          
                 amount:
                   type: object
                   properties:
@@ -214,6 +520,24 @@ properties:
                     probability:
                       type: double
                       example: 0.23930180072784424
+                    region:
+                      type: object
+                      properties:
+                        left:
+                          type: double
+                          example: 0.7254032258064517
+                        top:
+                          type: double
+                          example: 0.16989737742303307
+                        width:
+                          type: double
+                          example: 0.029435483870967727
+                        height:
+                          type: double
+                          example: 0.008266818700114031
+                        page:
+                          type: integer
+                          example: 1                          
                 rate:
                   type: object
                   properties:
@@ -223,6 +547,24 @@ properties:
                     probability:
                       type: double
                       example: 0.3082634508609772
+                    region:
+                      type: object
+                      properties:
+                        left:
+                          type: double
+                          example: 0.7254032258064517
+                        top:
+                          type: double
+                          example: 0.16989737742303307
+                        width:
+                          type: double
+                          example: 0.029435483870967727
+                        height:
+                          type: double
+                          example: 0.008266818700114031
+                        page:
+                          type: integer
+                          example: 1                          
             due:
               type: object
               properties:
@@ -232,6 +574,24 @@ properties:
                 probability:
                   type: double
                   example: 0.8420112729072571
+                region:
+                  type: object
+                  properties:
+                    left:
+                      type: double
+                      example: 0.7254032258064517
+                    top:
+                      type: double
+                      example: 0.16989737742303307
+                    width:
+                      type: double
+                      example: 0.029435483870967727
+                    height:
+                      type: double
+                      example: 0.008266818700114031
+                    page:
+                      type: integer
+                      example: 1                      
         items:
           type: array
           items:
@@ -246,6 +606,24 @@ properties:
                   probability:
                     type: double
                     example: 0.7640396271433149
+                  region:
+                    type: object
+                    properties:
+                      left:
+                        type: double
+                        example: 0.7254032258064517
+                      top:
+                        type: double
+                        example: 0.16989737742303307
+                      width:
+                        type: double
+                        example: 0.029435483870967727
+                      height:
+                        type: double
+                        example: 0.008266818700114031
+                      page:
+                        type: integer
+                        example: 1
               unitNet:
                 type: object
                 properties:
@@ -255,6 +633,24 @@ properties:
                   probability:
                     type: double
                     example: 0.26339974999427795
+                  region:
+                    type: object
+                    properties:
+                      left:
+                        type: double
+                        example: 0.7254032258064517
+                      top:
+                        type: double
+                        example: 0.16989737742303307
+                      width:
+                        type: double
+                        example: 0.029435483870967727
+                      height:
+                        type: double
+                        example: 0.008266818700114031
+                      page:
+                        type: integer
+                        example: 1                    
               positionTotalPrice:
                 type: object
                 properties:
@@ -264,6 +660,24 @@ properties:
                   probability:
                     type: double
                     example: 0.7435760498046875
+                  region:
+                    type: object
+                    properties:
+                      left:
+                        type: double
+                        example: 0.7254032258064517
+                      top:
+                        type: double
+                        example: 0.16989737742303307
+                      width:
+                        type: double
+                        example: 0.029435483870967727
+                      height:
+                        type: double
+                        example: 0.008266818700114031
+                      page:
+                        type: integer
+                        example: 1                    
               qty:
                 type: object
                 properties:
@@ -273,6 +687,24 @@ properties:
                   probability:
                     type: double
                     example: 0.24369847774505615
+                  region:
+                    type: object
+                    properties:
+                      left:
+                        type: double
+                        example: 0.7254032258064517
+                      top:
+                        type: double
+                        example: 0.16989737742303307
+                      width:
+                        type: double
+                        example: 0.029435483870967727
+                      height:
+                        type: double
+                        example: 0.008266818700114031
+                      page:
+                        type: integer
+                        example: 1                    
               paid:
                 type: object
                 properties:
@@ -282,3 +714,21 @@ properties:
                   probability:
                     type: double
                     example: 0
+                  region:
+                    type: object
+                    properties:
+                      left:
+                        type: double
+                        example: 0.7254032258064517
+                      top:
+                        type: double
+                        example: 0.16989737742303307
+                      width:
+                        type: double
+                        example: 0.029435483870967727
+                      height:
+                        type: double
+                        example: 0.008266818700114031
+                      page:
+                        type: integer
+                        example: 1                    
