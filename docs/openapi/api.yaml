@@ -60,10 +60,10 @@ x-tagGroups:
 paths:
   /health:
     $ref: './paths/health.yaml'
-  /projects/:
+  /projects:
     $ref: './paths/projects.yaml'
-  /documents:
-    $ref: './paths/documents/documents.yaml'
+  /projects/{projectId}:
+    $ref: './paths/projects@{projectId}.yaml'
   /projects/{projectId}/documents:
     $ref: './paths/projects@{projectId}/documents.yaml'
   /projects/{projectId}/documents/{documentId}:
@@ -74,6 +74,8 @@ paths:
     $ref: './paths/projects@{projectId}/documents@{documentId}download.yaml'
   /projects/{projectId}/documents/upload:
     $ref: './paths/projects@{projectId}/upload.yaml'
+  /documents:
+    $ref: './paths/documents/documents.yaml'
 components:
   securitySchemes:
     BasicAuth:

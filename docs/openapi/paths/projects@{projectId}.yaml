@@ -1,0 +1,21 @@
+get:
+  summary: Retrieve a project by ID
+  operationId: getProjectById
+  description: Retrieve a specific project
+  tags:
+    - Projects
+  security:
+    - BasicAuth: []
+  responses:
+    '200':
+      description: The requested project
+      content:
+        application/json:
+          schema:
+            $ref: '../components/schemas/Project.yaml'
+    '404':
+      $ref: '../components/responses/NotFound.yaml'
+  x-codeSamples:
+    - lang: curl
+      source:
+        $ref: '../code-samples/project.txt'

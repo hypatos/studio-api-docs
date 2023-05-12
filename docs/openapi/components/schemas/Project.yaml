@@ -1,0 +1,56 @@
+type: object
+required:
+  - displayName
+  - createdAt
+  - lastModifiedAt
+  - languages
+  - ocrFeatures
+properties:
+  displayName:
+    type: string
+    example: My Project 1
+  createdAt:
+    type: string
+    format: date-time
+    example: '2021-03-04 13:12:30.612000'
+  lastModifiedAt:
+    type: string
+    format: date-time
+    example: '2021-03-04 18:20:54.163000'
+  note:
+    type: string
+    example: Some notes about this project
+  languages:
+    type: array
+    items:
+      type: string
+    example: [English, German, French]
+  ocrEngine:
+    type: string
+    enum: [abbyy, abbyy12, abbyy12n, google]
+    example: abbyy12
+  ocrFeatures:
+    type: array
+    items:
+      type: string
+      enum: [barcodes]
+    example: [barcodes]
+  originFeatures:
+    type: object
+    properties:
+      emailOrigin:
+        type: object
+        properties:
+          emailAttachementMerge:
+            type: object
+            properties:
+              addFiles:
+                type: boolean
+                default: false
+              addSeparator:
+                type: boolean
+                default: false
+              addEmailBody:
+                type: boolean
+                default: false
+                example: true
