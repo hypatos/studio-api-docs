@@ -1,7 +1,7 @@
 get:
-  summary: Retrieve a list of projects in the company.
+  summary: Retrieve a list of projects in the company
   operationId: listProjects
-  description: Retrieve a list of projects in the company.
+  description: Retrieve a list of projects in the company
   tags:
     - Projects
   security:

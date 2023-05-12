@@ -1,8 +1,8 @@
 get:
-  summary: Retrieve a list of documents.
+  summary: Retrieve a list of documents
   operationId: listProjectDocuments
   description: Retrieve a list of documents in a project possibly scoped by time and project.
-    Lists completed documents only by default
+    Lists completed documents only by default.
   tags:
     - Project documents
   security:

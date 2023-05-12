@@ -1,0 +1,2 @@
+curl -H "Authorization: Basic YWRtaW46c2VjcmV0" \
+  https://api.cloud.hypatos.ai/v1/projects/12345

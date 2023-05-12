@@ -1,5 +1,5 @@
 get:
-  summary: Retrieve a document by id.
+  summary: Retrieve a document by ID
   operationId: getDocumentById
   description: Retrieve a specific document including the extracted and completed data (entities). 
     State property of document shown differently on UI and in API, so here is mapping table
