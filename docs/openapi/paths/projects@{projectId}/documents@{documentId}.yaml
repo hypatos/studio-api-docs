@@ -66,6 +66,7 @@ get:
   parameters:
     - $ref: '../../components/parameters/projectId.yaml'
     - $ref: '../../components/parameters/documentId.yaml'
+    - $ref: '../../components/parameters/regions.yaml'
   responses:
     '200':
       description: The requested document
