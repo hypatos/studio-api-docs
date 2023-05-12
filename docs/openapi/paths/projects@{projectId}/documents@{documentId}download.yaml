@@ -1,7 +1,7 @@
 get:
-  summary: Download file by document id.
+  summary: Download file by document ID
   operationId: downloadFileByDocumentId
-  description: Download a physical file by document id
+  description: Download a physical file by document ID
 
   tags:
     - Project documents

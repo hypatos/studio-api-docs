@@ -2,7 +2,7 @@ get:
   summary: Retrieve a list of documents
   operationId: listDocuments
   description: Retrieve a list of documents possibly scoped by time and project.
-    Lists completed documents only by default
+    Lists completed documents only by default.
   tags:
     - Documents
   security:
