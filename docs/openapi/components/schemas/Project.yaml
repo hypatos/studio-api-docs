@@ -5,6 +5,7 @@ required:
   - lastModifiedAt
   - languages
   - ocrFeatures
+  - companyId
 properties:
   displayName:
     type: string
@@ -54,3 +55,7 @@ properties:
                 type: boolean
                 default: false
                 example: true
+  companyId:
+    type: string
+    example: 6295dcbc9db1ab740c3e2937
+
