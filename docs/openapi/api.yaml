@@ -30,7 +30,7 @@ info:
     where `<credentials>` is the base64-encoded string
     formed by `<application_id>:<application_key>`.
 
-  version: 0.0.3
+  version: 0.0.4
   title: Hypatos API
   license:
     name: Apache 2.0
