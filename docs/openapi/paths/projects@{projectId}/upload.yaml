@@ -17,6 +17,8 @@ post:
             $ref: '../../components/schemas/UploadResult.yaml'
     '400':
       $ref: '../../components/responses/BadRequest.yaml'
+    '500':
+      $ref: '../../components/responses/InternalServer.yaml'
   requestBody:
     $ref: '../../components/requestBodies/upload.yaml'
   x-codeSamples:
